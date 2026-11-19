@@ -1,0 +1,43 @@
+# Hält die Versionsliste der Skills im Zweig „versionen“ aktuell.
+# Quelle ist eine öffentliche Textdatei (nur Skill-Name, Version, Datum, ein Satz). Keine Geheimnisse, keine Kundendaten.
+# Läuft alle 30 Minuten und auf Knopfdruck. Schreibt nur, wenn sich die Liste geändert hat,
+# und einmal pro Woche einen Prüfstempel, damit der Zeitplan aktiv bleibt.
+name: Versionsliste abgleichen
+
+on:
+  schedule:
+    - cron: "7,37 * * * *"
+  workflow_dispatch:
+
+concurrency: versionen-abgleich
+permissions:
+  contents: write
+
+jobs:
+  abgleich:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    env:
+      QUELLE: https://dashboard.reitstallrevolution.com/medien/versionen.txt
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: versionen
+      - name: Liste holen, prüfen, ablegen
+        run: |
+          set -euo pipefail
+          curl -sS --fail --max-time 30 -H 'Cache-Control: no-cache' "$QUELLE?p=$GITHUB_RUN_ID" -o neu.txt
+          # Nur das erwartete Format annehmen: Kommentarzeilen oder „name | version | datum | satz“
+          [ "$(wc -c < neu.txt)" -lt 20000 ] || { echo "::error::Liste zu groß"; exit 1; }
+          if grep -vE '^(#.*|[a-z0-9-]+ \| [0-9]+(\.[0-9]+)* \| [0-9-]* \| [^|<>]*)$' neu.txt | grep -q .; then
+            echo "::error::Liste hat ein unerwartetes Format. Nichts geändert."; exit 1
+          fi
+          [ "$(grep -vc '^#' neu.txt)" -ge 1 ] || { echo "::error::Liste ist leer. Nichts geändert."; exit 1; }
+          woche=$(date -u +%G-W%V)
+          mv neu.txt VERSIONEN.txt
+          echo "$woche" > GEPRUEFT.txt
+          if git diff --quiet; then echo "Unverändert."; exit 0; fi
+          git add VERSIONEN.txt GEPRUEFT.txt
+          git -c user.name="github-actions" -c user.email="actions@users.noreply.github.com" commit -qm "Versionsliste abgeglichen"
+          git push origin versionen
+          echo "Aktualisiert: $(grep -vc '^#' VERSIONEN.txt) Skills"
