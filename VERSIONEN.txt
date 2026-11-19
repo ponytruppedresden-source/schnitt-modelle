@@ -1,0 +1,7 @@
+# Aktuelle Fassungen der Skills. Aufbau je Zeile: Skill | Version | Datum | Was neu ist
+# Die Skills lesen diese Liste beim Start und sagen Bescheid, wenn eine neuere Fassung bereitliegt.
+reel-schnitt | 3.0.1 | 2026-11-19 | Der Skill meldet künftig selbst, wenn es eine neuere Fassung gibt.
+langvideo-schnitt | 2.0.1 | 2026-11-19 | Der Skill meldet künftig selbst, wenn es eine neuere Fassung gibt.
+story-producer | 2.0.1 | 2026-11-19 | Der Skill meldet künftig selbst, wenn es eine neuere Fassung gibt.
+social-grafik | 2.1.1 | 2026-11-19 | Der Skill meldet künftig selbst, wenn es eine neuere Fassung gibt.
+social-publisher | 1.1.1 | 2026-11-19 | Transkript für Reels läuft wieder; der Skill meldet künftig selbst, wenn es eine neuere Fassung gibt.
