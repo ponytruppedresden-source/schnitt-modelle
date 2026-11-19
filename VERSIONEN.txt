@@ -1,7 +1,24 @@
 # Aktuelle Fassungen der Skills. Aufbau je Zeile: Skill | Version | Datum | Was neu ist
-# Die Skills lesen diese Liste beim Start und sagen Bescheid, wenn eine neuere Fassung bereitliegt.
-reel-schnitt | 3.0.1 | 2026-11-19 | Der Skill meldet künftig selbst, wenn es eine neuere Fassung gibt.
+# Diese Datei wird automatisch erzeugt. Nicht von Hand ändern.
+branding | 2.0.1 | 2026-11-19 | Der Skill meldet künftig selbst, wenn es eine neuere Fassung gibt.
+buero-und-wirtschaftlichkeit | 2.0.1 | 2026-11-19 | Der Skill meldet künftig selbst, wenn es eine neuere Fassung gibt.
+content-berater | 1.0.1 | 2026-11-19 | Der Skill meldet künftig selbst, wenn es eine neuere Fassung gibt.
+contentplaner | 2.0.1 | 2026-11-19 | Der Skill meldet künftig selbst, wenn es eine neuere Fassung gibt.
+hosting-anbindung | 1.0.1 | 2026-11-19 | Der Skill meldet künftig selbst, wenn es eine neuere Fassung gibt.
+ki-medien | 1.0.1 | 2026-11-19 | Der Skill meldet künftig selbst, wenn es eine neuere Fassung gibt.
+ki-mindset-geschaeftsfuehrer | 1.0.1 | 2026-11-19 | Der Skill meldet künftig selbst, wenn es eine neuere Fassung gibt.
+landingpages | 2.0.1 | 2026-11-19 | Der Skill meldet künftig selbst, wenn es eine neuere Fassung gibt.
 langvideo-schnitt | 2.0.1 | 2026-11-19 | Der Skill meldet künftig selbst, wenn es eine neuere Fassung gibt.
-story-producer | 2.0.1 | 2026-11-19 | Der Skill meldet künftig selbst, wenn es eine neuere Fassung gibt.
+marken-repo-pflege | 1.0.1 | 2026-11-19 | Der Skill meldet künftig selbst, wenn es eine neuere Fassung gibt.
+material-suche | 1.0.1 | 2026-11-19 | Der Skill meldet künftig selbst, wenn es eine neuere Fassung gibt.
+musik-reels | 1.0.1 | 2026-11-19 | Der Skill meldet künftig selbst, wenn es eine neuere Fassung gibt.
+positionierung | 2.0.1 | 2026-11-19 | Der Skill meldet künftig selbst, wenn es eine neuere Fassung gibt.
+reel-schnitt | 3.0.1 | 2026-11-19 | Der Skill meldet künftig selbst, wenn es eine neuere Fassung gibt.
+reitschul-agb | 1.1 | 2026-11-19 | Der Skill meldet künftig selbst, wenn es eine neuere Fassung gibt.
+servicebriefgestalter | 2.0.1 | 2026-11-19 | Der Skill meldet künftig selbst, wenn es eine neuere Fassung gibt.
 social-grafik | 2.1.1 | 2026-11-19 | Der Skill meldet künftig selbst, wenn es eine neuere Fassung gibt.
 social-publisher | 1.1.1 | 2026-11-19 | Transkript für Reels läuft wieder; der Skill meldet künftig selbst, wenn es eine neuere Fassung gibt.
+starter-betriebsprofil | 1.1 | 2026-11-19 | Der Skill meldet künftig selbst, wenn es eine neuere Fassung gibt.
+story-producer | 2.0.1 | 2026-11-19 | Der Skill meldet künftig selbst, wenn es eine neuere Fassung gibt.
+webseite | 2.0.1 | 2026-11-19 | Der Skill meldet künftig selbst, wenn es eine neuere Fassung gibt.
+zielgruppen-recherche | 1.0.1 |  | 
