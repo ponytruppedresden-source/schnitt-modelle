@@ -1,0 +1,9 @@
+7482f978f9493b93b3d0bf68a148a1a62ca02547e8ee981358ff8ef2de8a9418  model.bin  https://huggingface.co/Zoont/faster-whisper-large-v3-turbo-int8-ct2/resolve/846f74797293e5f605d509a6ab5395a1f2f2874e/model.bin
+27ec8ecb8ba05f3ac81522a7a035bd5ab19a5b567640bf68ccec90ded4fc1726  config.json  https://huggingface.co/Zoont/faster-whisper-large-v3-turbo-int8-ct2/resolve/846f74797293e5f605d509a6ab5395a1f2f2874e/config.json
+7ccc62c6f2765af1f3b46c00c9b5894426835a05021c8b9c01eecb6dfb542711  preprocessor_config.json  https://huggingface.co/Zoont/faster-whisper-large-v3-turbo-int8-ct2/resolve/846f74797293e5f605d509a6ab5395a1f2f2874e/preprocessor_config.json
+297b13372ac43916285644fb9687add3cc62ee2a1adb60da3dc25cc94c1871fd  tokenizer.json  https://huggingface.co/Zoont/faster-whisper-large-v3-turbo-int8-ct2/resolve/846f74797293e5f605d509a6ab5395a1f2f2874e/tokenizer.json
+697ee5a65726e46b4d294d1a243d98e1878f5d81caba17891b1c5ebab7a912a9  vocabulary.json  https://huggingface.co/Zoont/faster-whisper-large-v3-turbo-int8-ct2/resolve/846f74797293e5f605d509a6ab5395a1f2f2874e/vocabulary.json
+7bb2f06e9df17cdf1ef14ee8a15ab08ed28e8d0ef5054ee135741560df2ec068  stimme.onnx  https://huggingface.co/Wespeaker/wespeaker-voxceleb-resnet34-LM/resolve/f0c48c298fd835726c27956a5d617bad7115627e/voxceleb_resnet34_LM.onnx
+8f2383e4dd3cfbb4553ea8718107fc0423210dc964f9f4280604804ed2552fa4  yunet.onnx  https://media.githubusercontent.com/media/opencv/opencv_zoo/main/models/face_detection_yunet/face_detection_yunet_2023mar.onnx
+f1357c4e5be9dee8467bead486dfced2d75b640c26ad0b594fa7f102322371d9  rnnoise/cb.rnnn  https://raw.githubusercontent.com/GregorR/rnnoise-models/master/conjoined-burgers-2018-08-28/cb.rnnn
+88d4531297118f595bf2fd60f6f566aec2e559393802d1f436c380f0cbbd2828  rvm/rvm_mobilenetv3_fp32.onnx  https://github.com/PeterL1n/RobustVideoMatting/releases/download/v1.0.0/rvm_mobilenetv3_fp32.onnx
