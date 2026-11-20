@@ -9,6 +9,7 @@ ki-medien | 1.0.1 | 2026-11-19 | Der Skill meldet künftig selbst, wenn es eine 
 ki-mindset-geschaeftsfuehrer | 1.0.1 | 2026-11-19 | Der Skill meldet künftig selbst, wenn es eine neuere Fassung gibt.
 landingpages | 2.0.1 | 2026-11-19 | Der Skill meldet künftig selbst, wenn es eine neuere Fassung gibt.
 langvideo-schnitt | 2.0.1 | 2026-11-19 | Der Skill meldet künftig selbst, wenn es eine neuere Fassung gibt.
+magnific-credits-clever-einsetzen | 1.0 | 2026-11-20 | Neu: spart Magnific-Credits, prüft Kontostand und Kosten vor jedem Lauf.
 marken-repo-pflege | 1.0.1 | 2026-11-19 | Der Skill meldet künftig selbst, wenn es eine neuere Fassung gibt.
 material-suche | 1.0.1 | 2026-11-19 | Der Skill meldet künftig selbst, wenn es eine neuere Fassung gibt.
 musik-reels | 1.0.1 | 2026-11-19 | Der Skill meldet künftig selbst, wenn es eine neuere Fassung gibt.
